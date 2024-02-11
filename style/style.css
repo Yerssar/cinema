@@ -23,11 +23,23 @@
     color: gold;
     font-size: 20px;
 }
+.Cinema{
+    displa:flex;
+    
+
+}
+
 
 header {
+    display: flex;
     background-color: rgb(116, 6, 6);
     color: goldenrod;
     padding: 10px;
+    width: 100%;
+    position: fixed; /* Зафиксировать элемент */
+    top: 0; /* Прижать его к верхнему краю экрана */
+    left: 0; /* Прижать его к левому краю экрана */
+    z-index: 1000; /* Установить z-index, чтобы header находился поверх других элементов */
 }
 aside {
     display: flex;
