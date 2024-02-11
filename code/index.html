@@ -1,123 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cinema</title>
-    <link rel="stylesheet" href="/style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
     <div class="Cinema">
-        <header>
-            <h1>CINEMA</h1>
-            <div class="search">
-                <input type="search" placeholder="поиск">
-                <button>поиск</button>
-            </div>
-        </header>
-        <div class="container">
-            <aside>
-                <h2>Жанры</h2>
-                <ul>
-                    <li>Новинки</li>
-                    <li>Сериалы</li>
-                    <li>Комедии</li>
-                    <li>Драма</li>
-                    <li>Ужас</li>
-                    <li>Фантастика</li>
-
-                </ul>
-            </aside>
-            <div class="movie">
-                <img src="/img/1.webp" alt="Фильм 1">
-                <div class="movie-info">
-                    <h2>1+1 (2011)</h2>
-                    <p>Франция • драма  Режиссёр: Оливье Накаш
-                        В ролях: Франсуа Клюзе, Омар Си</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="movie">
-                <img src="/img/2.webp" alt="Фильм 2">
-                <div class="movie-info">
-                    <h2>Зеленая миля (1999)</h2>
-                    <p>США • драма  Режиссёр: Фрэнк Дарабонт
-                        В ролях: Том Хэнкс, Дэвид Морс</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="movie">
-                <img src="/img/3.webp" alt="Фильм 3">
-                <div class="movie-info">
-                    <h2>Побег из Шоушенка (1994)</h2>
-                    <p>США • драма  Режиссёр: Фрэнк Дарабонт
-                        В ролях: Тим Роббинс, Морган Фриман</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="movie">
-                <img src="/img/4.webp" alt="Фильм 4">
-                <div class="movie-info">
-                    <h2>Форрест Гамп (1994)</h2>
-                    <p>США • драма  Режиссёр: Роберт Земекис
-                        В ролях: Том Хэнкс, Робин Райт</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="movie">
-                <img src="/img/5.webp" alt="Фильм 5">
-                <div class="movie-info">
-                    <h2>Интерстеллар</h2>
-                    <p>США • фантастика  Режиссёр: Кристофер Нолан
-                        В ролях: Мэттью Макконахи, Энн Хэтэуэй</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div> <div class="movie">
-                <img src="/img/6.webp" alt="Фильм 6">
-                <div class="movie-info">
-                    <h2>Унесённые призраками</h2>  
-                    <p>Япония • аниме  Режиссёр: Хаяо Миядзаки
-                        В ролях: Руми Хиираги, Мию Ирино</p>
-                    <div class="rating">
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                        <span class="star">&#9733;</span>
-                    </div>
-                </div>
-            </div>
+      <header>
+        <h1>CINEMA</h1>
+        <img src="/img/кпленка.jpg" alt="" />
+      </header>
+      <nav>
+        <div class="search">
+          <input type="search" placeholder="поиск фильмов" />
+          <button>Поиск</button>
         </div>
+        <div class="register">
+          <form>
+            <input type="text" placeholder="Логин" />
+            <input type="password" placeholder="Пароль" />
+            <button type="submit">Войти</button>
+          </form>
+        </div>
+      </nav>
+      <div class="main-container">
+        <div class="container">
+          <div class="movie">
+            <img src="/img/1.webp" alt="Фильм 1" />
+            <div class="movie-info">
+              <h2>1+1 (2011)</h2>
+              <p>
+                Франция • драма Режиссёр: Оливье Накаш В ролях: Франсуа Клюзе,
+                Омар Си
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="/img/2.webp" alt="Фильм 2" />
+            <div class="movie-info">
+              <h2>Зеленая миля (1999)</h2>
+              <p>
+                США • драма Режиссёр: Фрэнк Дарабонт В ролях: Том Хэнкс, Дэвид
+                Морс
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="/img/3.webp" alt="Фильм 3" />
+            <div class="movie-info">
+              <h2>Побег из Шоушенка (1994)</h2>
+              <p>
+                США • драма Режиссёр: Фрэнк Дарабонт В ролях: Тим Роббинс,
+                Морган Фриман
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="/img/4.webp" alt="Фильм 4" />
+            <div class="movie-info">
+              <h2>Форрест Гамп (1994)</h2>
+              <p>
+                США • драма Режиссёр: Роберт Земекис В ролях: Том Хэнкс, Робин
+                Райт
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="/img/5.webp" alt="Фильм 5" />
+            <div class="movie-info">
+              <h2>Интерстеллар</h2>
+              <p>
+                США • фантастика Режиссёр: Кристофер Нолан В ролях: Мэттью
+                Макконахи, Энн Хэтэуэй
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="movie">
+            <img src="/img/6.webp" alt="Фильм 6" />
+            <div class="movie-info">
+              <h2>Унесённые призраками</h2>
+              <p>
+                Япония • аниме Режиссёр: Хаяо Миядзаки В ролях: Руми Хиираги,
+                Мию Ирино
+              </p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section>
+          <h2>Жанры</h2>
+          <ul>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Сериалы</a></li>
+            <li><a href="#">Комедии</a></li>
+            <li><a href="#">Драма</a></li>
+            <li><a href="#">Ужас</a></li>
+            <li><a href="#">Фантастика</a></li>
+          </ul>
+        </section>
+      </div>
+      <article>
+        <div class="rec-container">
+          <div>
+            <h2>Рекомендации</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+              neque provident optio deserunt sint blanditiis vero fugiat,
+              perferendis dolore doloribus, praesentium error aliquid laboriosam
+              est, inventore libero asperiores obcaecati saepe?
+            </p>
+          </div>
+          <div>
+            <h2>Популярное</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              laboriosam ea rem. Qui assumenda ratione voluptate accusantium aut
+              nobis nulla eum quae quo delectus maiores quia, magni debitis.
+              Eaque, sapiente.
+            </p>
+          </div>
+          <div>
+            <h2>Новые трейлеры</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              recusandae sequi atque error tempora eum labore laboriosam ad
+              dignissimos! Temporibus corrupti voluptate beatae tenetur quas
+              pariatur dolorem quibusdam laboriosam reiciendis!
+            </p>
+          </div>
+        </div>
+      </article>
+      <footer>
+        <div>
+         <h1>ЗДЕСЬ БУДЕТ FOOTER</h1>
+        </div>
+      </footer>
+
     </div>
-</body>
+  </body>
 </html>

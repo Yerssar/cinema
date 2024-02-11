@@ -1,9 +1,17 @@
-
+.main-container{
+    display: flex;
+}
+section {
+    width: 300px;
+    background-color: aliceblue;
+    padding: 10px;
+}    
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    background-color:black
 }
 .movie {
     width: 300px;
@@ -13,8 +21,6 @@
 }
 .movie img {
     width: 100%;
-    height: auto;
-   
 }
 .movie-info {
     padding: 10px;
@@ -23,28 +29,37 @@
     color: gold;
     font-size: 20px;
 }
-.Cinema{
-    displa:flex;
-    
-
-}
-
-
 header {
-    display: flex;
     background-color: rgb(116, 6, 6);
     color: goldenrod;
     padding: 10px;
-    width: 100%;
-    position: fixed; /* Зафиксировать элемент */
-    top: 0; /* Прижать его к верхнему краю экрана */
-    left: 0; /* Прижать его к левому краю экрана */
-    z-index: 1000; /* Установить z-index, чтобы header находился поверх других элементов */
 }
-aside {
+nav{
+    background-color:black;
+    color: goldenrod;
+    padding: 10px; 
+}
+header {
+    background-color: black; 
+    color: goldenrod; 
+    /* padding: 20px; */
+    text-align: center; Центрирование текста
+}
+header img {
+    width: 100%; 
+    max-height: 200px; 
+}
+.rec-container{
     display: flex;
-    width: 300px;
-    background-color: rgb(218, 215, 215);
-    padding: 10px;
-    border-radius: 20px;
-}    
+    margin: 10px;
+    justify-content: space-between;
+}
+.rec-container div {
+    flex-basis: 30%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: goldenrod;
+}
